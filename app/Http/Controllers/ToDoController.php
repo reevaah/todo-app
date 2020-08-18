@@ -24,11 +24,20 @@ class ToDoController extends Controller
             $object->end_date = $endDate;
             $object->save();
 
+            
+
             // return view('Home');
                return redirect('/');
             // return "data saved";
 
             // var_dump($title,$description,$startDate,$endDate);
+
+
         }
-    
+         public function edit(){
+
+         }
+         public function update(){
+             
+         }
 }
